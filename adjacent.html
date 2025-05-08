@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #p1 + h2,
+      #p2 + h2 {
+        color: blue;
+      } */
+      /* p + h2 {
+        color: red;
+      } */
+      p ~ h2 {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p id="p1">para1</p>
+      <p>dummy para1</p>
+      <div>div1</div>
+      <h2>heading1</h2>
+      <p id="p2">para2</p>
+      <p>dummy para2</p>
+      <div>div2</div>
+      <h2>heading2</h2>
+    </div>
+  </body>
+</html>

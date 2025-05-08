@@ -1,0 +1,5 @@
+1.descendant selector - space - select all the child element..direct and indirect
+2. child selector - > - only direct element
+3. adjacent sibling selector - +  next element.. <div><p><h1>  -- for div p is adjacent sibling.. for  div h1 is general sibling
+4. general sibling selector -  ~   
+
