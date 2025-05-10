@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes basicanimation {
+        from {
+          background-color: black;
+          color: red;
+          font-size: 20px;
+        }
+        to {
+          background-color: red;
+          color: black;
+          font-size: 30px;
+          padding: 20px;
+        }
+      }
+
+      @keyframes animation2 {
+        0% {
+          background-color: black;
+          color: white;
+        }
+        25% {
+          background-color: blue;
+          color: black;
+        }
+        50% {
+          background-color: rgb(88, 92, 104);
+          color: rgb(255, 254, 254);
+        }
+        75% {
+          background-color: rgb(50, 197, 75);
+          color: black;
+        }
+        100% {
+          background-color: rgb(197, 50, 153);
+          color: rgb(233, 227, 227);
+        }
+      }
+      div {
+        width: 500px;
+        height: 100px;
+        border: 2px solid green;
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        animation-name: animation2;
+        animation-duration: 5s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div>animation container</div>
+  </body>
+</html>

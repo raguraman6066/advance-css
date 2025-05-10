@@ -1,0 +1,9 @@
+
+1.translate - change position of element x and y direction
+ 2.scale 
+ 3.skew 
+ 4.rotate 
+
+
+
+ transition- change css property smoothly

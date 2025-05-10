@@ -1,0 +1,9 @@
+absolute- length not change across the size of device ex:px
+relative-  change across the size of device ex:%,depends on other element
+%- according to parent element
+px-not according to parent element,independent
+
+  width: 10ch;
+
+
+  vw(view port width) -visible width area on the screen
